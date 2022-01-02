@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 
 namespace SalesWebApp.Models
 {
-    public class Class
+    public class Department
     {
+        public string Name { get; set; }
+            public int Id { get; set; }
     }
 }
