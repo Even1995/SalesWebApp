@@ -15,7 +15,7 @@ namespace SalesWebApp.Models
         public DateTime BirthDate { get; set; }
         public double BaseSalary { get; set; }
         public Department Department { get; set; }
-        public ICollection<SaleRecord> Sales { get; set; } = new List<SaleRecord>();
+        public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 
        public Seller() 
         { 
@@ -31,11 +31,11 @@ namespace SalesWebApp.Models
             this.Department = department;
         }
 
-        public void AddSales(SaleRecord sr)
+        public void AddSales(SalesRecord sr)
         {
             Sales.Add(sr);
         }
-        public void RemoveSales(SaleRecord sr)
+        public void RemoveSales(SalesRecord sr)
         {
             Sales.Remove(sr);
         }

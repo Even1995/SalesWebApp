@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SalesWebApp.Models
 {
-    public class SaleRecord
+    public class SalesRecord
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }
@@ -15,11 +15,11 @@ namespace SalesWebApp.Models
         public SaleStatus Status { get; set; }
         public Seller Seller { get; set; }
 
-        public SaleRecord()
+        public SalesRecord()
         {
 
         }
-        public SaleRecord(int id, DateTime date, double amount, SaleStatus status, Seller Seller)
+        public SalesRecord(int id, DateTime date, double amount, SaleStatus status, Seller Seller)
         {
             Id = id;
             Date = date;

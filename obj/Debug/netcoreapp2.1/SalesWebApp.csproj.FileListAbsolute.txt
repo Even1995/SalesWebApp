@@ -7,6 +7,7 @@ C:\Users\user\source\repos\SalesWebApp\SalesWebApp\bin\Debug\netcoreapp2.1\Sales
 C:\Users\user\source\repos\SalesWebApp\SalesWebApp\bin\Debug\netcoreapp2.1\SalesWebApp.pdb
 C:\Users\user\source\repos\SalesWebApp\SalesWebApp\bin\Debug\netcoreapp2.1\SalesWebApp.Views.dll
 C:\Users\user\source\repos\SalesWebApp\SalesWebApp\bin\Debug\netcoreapp2.1\SalesWebApp.Views.pdb
+C:\Users\user\source\repos\SalesWebApp\SalesWebApp\obj\Debug\netcoreapp2.1\SalesWebApp.csproj.AssemblyReference.cache
 C:\Users\user\source\repos\SalesWebApp\SalesWebApp\obj\Debug\netcoreapp2.1\SalesWebApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\source\repos\SalesWebApp\SalesWebApp\obj\Debug\netcoreapp2.1\SalesWebApp.AssemblyInfoInputs.cache
 C:\Users\user\source\repos\SalesWebApp\SalesWebApp\obj\Debug\netcoreapp2.1\SalesWebApp.AssemblyInfo.cs

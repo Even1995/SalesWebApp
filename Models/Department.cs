@@ -7,18 +7,20 @@ namespace SalesWebApp.Models
 {
     public class Department
     {
-        public string Name { get; set; }
         public int Id { get; set; }
+        public string Name { get; set; }
+        
         public ICollection<Seller> Sellers { get; set; } = new List<Seller>();
 
         public Department()
         {
         }
 
-        public Department(string name, int id)
+        public Department( int id, string name)
         {
-            Name = name;
             Id = id;
+            Name = name;
+          
         }
         public void AddSeller(Seller se)
         {
