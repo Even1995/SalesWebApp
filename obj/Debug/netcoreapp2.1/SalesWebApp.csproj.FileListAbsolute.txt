@@ -39,3 +39,4 @@ C:\Users\user\source\repos\SalesWebApp\SalesWebApp\obj\Debug\netcoreapp2.1\Sales
 C:\Users\user\source\repos\SalesWebApp\SalesWebApp\obj\Debug\netcoreapp2.1\SalesWebApp.pdb
 C:\Users\user\source\repos\SalesWebApp\SalesWebApp\obj\Debug\netcoreapp2.1\SalesWebApp.genruntimeconfig.cache
 C:\Users\user\source\repos\SalesWebApp\SalesWebApp\obj\Debug\netcoreapp2.1\SalesWebApp.csproj.CopyComplete
+C:\Users\user\source\repos\SalesWebApp\SalesWebApp\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Index.cshtml.g.cs
