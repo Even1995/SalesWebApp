@@ -1,24 +1,21 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SalesWebApp.Models;
-using SalesWebApp.Services;
-using SalesWebApp.Services.Exceptions;
-using SalesWebApp.Models.ViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using SalesWebApp.Models;
+using SalesWebApp.Models.ViewModels;
+using SalesWebApp.Services;
+using SalesWebApp.Services.Exceptions;
 
-namespace SalesWebApp.Controllers
+namespace SalesWebMvc.Controllers
 {
     public class SellersController : Controller
     {
         private readonly SellerService _sellerService;
         private readonly DepartmentService _departmentService;
-        public SellersController (SellerService sellerService)
-        {
-            _sellerService = sellerService;
-        }
+
         public SellersController(SellerService sellerService, DepartmentService departmentService)
         {
             _sellerService = sellerService;
